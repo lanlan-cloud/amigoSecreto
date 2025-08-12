@@ -1,11 +1,11 @@
 :root {
-    --color-primary: hsl(147, 98%, 64%);
+    --color-primary: hsl(0deg 0% 100%);
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
+    --color-tertiary: #1d11a0;
     --color-button: #fe652b;
     --color-button-hover: #afaba9;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-text: #edeaea;
+    --color-white: #64a012;
 }
 
 /* Estilos generales */
@@ -39,10 +39,10 @@ body {
     padding: 40px 0 0;
 }
 
-/* Sección de entrada */
+/* SecciÃ³n de entrada */
 .input-section {
     flex: 60%;
-    background-color: var(--color-secondary);
+    background-color: #680f91;
     border: 1px solid #353232;
     border-radius: 64px 64px 0 0;
     display: flex;
@@ -52,13 +52,13 @@ body {
     width: 100%;
 }
 
-/* Títulos */
+/* TÃ­tulos */
 .main-title {
     font-size: 48px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: #680f91;
 }
 
 .section-title {
@@ -70,7 +70,7 @@ body {
     text-align: center;
 }
 
-/* Contenedores de entrada y botón */
+/* Contenedores de entrada y botÃ³n */
 .input-wrapper {
     display: flex;
     justify-content: center;
@@ -82,7 +82,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #edeaea;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -104,12 +104,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos de botón */
+/* Estilos de botÃ³n */
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 40px;
-    border: 1px solid #000000;
+    border: 1px solid #ebe5e5;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -136,21 +136,21 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #051bdfb9;
+    color: #dd327ead;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 
-/* Botón de sortear título */
+/* BotÃ³n de sortear tÃ­tulo */
 .button-draw {
     display: flex;
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: #eff3ea;
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .button-draw img {
