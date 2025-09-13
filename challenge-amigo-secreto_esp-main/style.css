@@ -62,7 +62,7 @@ body {
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "montserrat", serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -82,9 +82,9 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #edeaea;
+    border: 2px solid #ee9191;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-container {
@@ -97,10 +97,11 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 1px solid #333333;
+    border: 1px solid #3588d6;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -112,7 +113,7 @@ button {
     border: 1px solid #ebe5e5;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+    cursor: pointer black;
 }
 
 .button-add {
@@ -159,4 +160,48 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+HTML CSSResult Skip Results Iframe
+EDIT ON
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
 }
