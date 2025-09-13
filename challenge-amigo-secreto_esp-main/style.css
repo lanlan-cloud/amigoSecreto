@@ -1,8 +1,8 @@
 :root {
     --color-primary: hsl(0deg 0% 100%);
     --color-secondary: #FFF9EB;
-    --color-tertiary: #1d11a0;
-    --color-button: #fe652b;
+    --color-tertiary: #5c55a7;
+    --color-button: #fe632bbd;
     --color-button-hover: #afaba9;
     --color-text: #edeaea;
     --color-white: #64a012;
@@ -55,7 +55,7 @@ body {
 /* TÃ­tulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Montserrat", serif;
     font-weight: 900;
     font-style: italic;
     color: #680f91;
